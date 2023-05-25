@@ -1,3 +1,3 @@
 ts-node -T runEth.ts
-ts-node -T run Imx.ts
+ts-node -T runImx.ts
 ts-node -T runUsdc.ts
