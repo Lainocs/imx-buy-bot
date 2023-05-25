@@ -23,6 +23,5 @@ jobs:
         script: |
           cd /var/www/imx-buy-bot.papacastor.fr
           git pull
-          npm install
-          cd src
-          pm2 restart runEth.ts 
+          yarn
+          pm2 restart imx-buy-bot.papacastor.fr
